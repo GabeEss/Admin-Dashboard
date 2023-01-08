@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <script src="myscript.js" defer></script>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/7bad907976.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,8 +36,11 @@
         </div>
         <div class="lower-header">
             <div class="greeting">
-                <p>Hello there,</p>
-                <span class="username"></span>
+                <i class="fa-solid fa-user"></i>
+                <div>
+                    <p>Hello there,</p>
+                    <span class="username"></span>
+                </div>
             </div>
             <div class="header-buttons">
                 <button class="header-b">New</button>
@@ -51,43 +55,43 @@
             <h2 id="dash">Dashboard</h2>
         </div>
         <div class="option-buttons">
-            <div class="button-group">
+            <div class="button-gro">
                 <label for="homeicon"><i class="fa-solid fa-house"></i></label>
-                <button class="option-b">Home</button>
+                <div><button class="option-b">Home</button></div>
             </div>
-            <div class="button-group">
+            <div class="button-gro">
                 <label for="profileicon"><i class="fa-solid fa-user"></i></label>
-                <button class="option-b">Profile</button>
+                <div><button class="option-b">Profile</button></div>
             </div>
-            <div class="button-group">
+            <div class="button-gro">
                 <label for="messagesicon"><i class="fa-regular fa-envelope"></i></label>
-                <button class="option-b">Messages</button>
+                <div><button class="option-b">Messages</button></div>
             </div>
-            <div class="button-group">
+            <div class="button-gro">
                 <label for="historyicon"><i class="fa-solid fa-book"></i></label>
-                <button class="option-b">History</button>
+                <div><button class="option-b">History</button></div>
             </div>
-            <div class="button-group">
+            <div class="button-gro">
                 <label for="tasksicon"><i class="fa-solid fa-list-check"></i></label>
-                <button class="option-b">Tasks</button>
+                <div><button class="option-b">Tasks</button></div>
             </div>
-            <div class="button-group">
+            <div class="button-gro">
                 <label for="communitiesicon"><i class="fa-solid fa-person"></i></label>
-                <button class="option-b">Communities</button>
+                <div><button class="option-b">Communities</button></div>
             </div>
         </div>
         <div class="settings-buttons">
-            <div class="button-group">
+            <div class="button-gro">
                 <label for="settingsicon"><i class="fa-solid fa-sliders"></i></label>
-                <button class="settings-b">Settings</button>
+                <div><button class="settings-b">Settings</button></div>
             </div>
-            <div class="button-group">
+            <div class="button-gro">
                 <label for="supporticon"><i class="fa-solid fa-wrench"></i></label>
-                <button class="settings-b">Support</button>
+                <div><button class="settings-b">Support</button></div>
             </div>
-            <div class="button-group">
+            <div class="button-gro">
                 <label for="privacyicon"><i class="fa-solid fa-lock"></i></label>
-                <button class="settings-b">Privacy</button>
+                <div><button class="settings-b">Privacy</button></div>
             </div>
         </div>
     </sidebar>
@@ -95,12 +99,54 @@
         <div class="projects-grid">
             <div class="p-header"><h2>Projects</h2></div>
             <div class="projects">
-                <div class="project">Project 1</div>
-                <div class="project">Project 2</div>
-                <div class="project">Project 3</div>
-                <div class="project">Project 4</div>
-                <div class="project">Project 5</div>
-                <div class="project">Project 6</div>
+                <div class="project">
+                    <h4>Project 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum nulla molestiae quo ipsum, voluptatum ratione. Similique blanditiis recusandae aspernatur perferendis. Asperiores, harum. Nesciunt inventore fugit modi corrupti, blanditiis accusantium.</p>
+                    <div>
+                        <button class="fave"><i class="fa-solid fa-star"></i></button>
+                        <button class="track"><i class="fa-solid fa-binoculars"></i></button>
+                    </div>
+                </div>
+                <div class="project">
+                    <h4>Project 2</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cum illum asperiores voluptatibus id pariatur repellat nihil dolore tempore, eligendi odio quae neque dolorem illo perspiciatis mollitia iure omnis tenetur!</p>
+                    <div>
+                        <button class="fave"><i class="fa-solid fa-star"></i></button>
+                        <button class="track"><i class="fa-solid fa-binoculars"></i></button>
+                    </div>
+                </div>
+                <div class="project">
+                    <h4>Project 3</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptatem unde minus aspernatur impedit, necessitatibus accusantium quibusdam velit quae tenetur provident, ipsa quisquam sint vel. Impedit ducimus quasi excepturi unde.</p>
+                    <div>
+                        <button class="fave"><i class="fa-solid fa-star"></i></button>
+                        <button class="track"><i class="fa-solid fa-binoculars"></i></button>
+                    </div>
+                </div>
+                <div class="project">
+                    <h4>Project 4</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, dicta sit! Error inventore cupiditate porro enim? Id officiis porro nihil repellat, amet et quaerat enim fuga esse exercitationem molestiae beatae.</p>
+                    <div>
+                        <button class="fave"><i class="fa-solid fa-star"></i></button>
+                        <button class="track"><i class="fa-solid fa-binoculars"></i></button>
+                    </div>
+                </div>
+                <div class="project">
+                    <h4>Project 5</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas magnam temporibus ab eos totam enim at pariatur! Explicabo blanditiis molestias reprehenderit nesciunt itaque numquam et iste, asperiores nihil incidunt natus.</p>
+                    <div>
+                        <button class="fave"><i class="fa-solid fa-star"></i></button>
+                        <button class="track"><i class="fa-solid fa-binoculars"></i></button>
+                    </div>
+                </div>
+                <div class="project">
+                    <h4>Project 6</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum accusamus, corporis nobis ipsa culpa iure labore ut neque tempora. Reprehenderit fuga porro quia at nihil sequi reiciendis corrupti consequuntur vero.</p>
+                    <div>
+                        <button class="fave"><i class="fa-solid fa-star"></i></button>
+                        <button class="track"><i class="fa-solid fa-binoculars"></i></button>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="announcements">
@@ -114,9 +160,11 @@
         <div class="trending">
             <div class="t-header"><h2>Trending</h2></div>
             <div class="trend">
-                <div>Trending 1</div>
-                <div>Trending 2</div>
-                <div>Trending 3</div>
+                <ul>
+                        <li><i class="fa-solid fa-user"></i><div><a href="">@handle1</a><p>World Peace Builder</p></div></li>   
+                        <li><i class="fa-solid fa-user"></i><div><a href="">@handle2</a><p>Super Cool Dude</p></div></li>
+                        <li><i class="fa-solid fa-user"></i><div><a href="">@handle3</a><p>Life Changing App</p></div></li>
+                  </ul>
             </div>
         </div>
     </maincontent>
